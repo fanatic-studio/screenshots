@@ -1,4 +1,4 @@
-package app.vd.screenshots.util;
+package app.eco.screenshots.util;
 
 import android.content.ContentResolver;
 import android.content.Context;

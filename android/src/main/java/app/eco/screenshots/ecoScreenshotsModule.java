@@ -1,4 +1,4 @@
-package app.vd.screenshots;
+package app.eco.screenshots;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -15,11 +15,11 @@ import java.util.Map;
 
 import com.alibaba.weex.plugin.annotation.WeexModule;
 
-import app.vd.framework.extend.base.WXModuleBase;
-import app.vd.screenshots.util.Picture;
-import app.vd.screenshots.util.SDCard;
+import app.eco.framework.extend.base.WXModuleBase;
+import app.eco.screenshots.util.Picture;
+import app.eco.screenshots.util.SDCard;
 
-public class vdScreenshotsModule extends WXModuleBase {
+public class ecoScreenshotsModule extends WXModuleBase {
 
     @JSMethod
     public void shots(String id, JSCallback callback) {

@@ -3,19 +3,19 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/ivde/screenshots
+eco plugin install https://github.com/eco/screenshots
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/ivde/screenshots
+eco plugin uninstall https://github.com/eco/screenshots
 ```
 
 ## 引用
 
 ```js
-const screenshots = app.requireModule("vd/screenshots");
+const screenshots = app.requireModule("eco/screenshots");
 ```
 
 ## 截图功能

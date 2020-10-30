@@ -1,12 +1,12 @@
-package app.vd.screenshots.entry;
+package app.eco.screenshots.entry;
 
 import android.content.Context;
 
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.common.WXException;
 
-import app.vd.framework.extend.annotation.ModuleEntry;
-import app.vd.screenshots.vdScreenshotsModule;
+import app.eco.framework.extend.annotation.ModuleEntry;
+import app.eco.screenshots.ecoScreenshotsModule;
 
 @ModuleEntry
 public class screenshotsEntry {
@@ -18,7 +18,7 @@ public class screenshotsEntry {
     public void init(Context content) {
 
         try {
-            WXSDKEngine.registerModule("vdScreenshots", vdScreenshotsModule.class);
+            WXSDKEngine.registerModule("ecoScreenshots", ecoScreenshotsModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }
